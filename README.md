@@ -9,7 +9,7 @@ A Model Context Protocol (MCP) server that provides seamless integration with [H
 - **Get Project Details**: Retrieve comprehensive information about specific projects
 - **Create Presigned URLs**: Generate embeddable URLs for sharing Hex projects
 
-### Project Execution  
+### Project Execution
 - **Run Projects**: Execute Hex projects with custom input parameters
 - **Monitor Runs**: Check the status and progress of project executions
 - **Cancel Runs**: Stop long-running or stuck project executions
@@ -26,7 +26,7 @@ A Model Context Protocol (MCP) server that provides seamless integration with [H
 ### From NPM (Recommended)
 
 ```bash
-npx mcp-server-hex
+npx github:tomnagengast/mcp-server-hex
 ```
 
 ### From Source
@@ -79,7 +79,7 @@ Add this to your Claude Desktop configuration file:
   "mcpServers": {
     "hex": {
       "command": "npx",
-      "args": ["mcp-server-hex"],
+      "args": ["github:tomnagengast/mcp-server-hex"],
       "env": {
         "HEX_API_TOKEN": "your_hex_api_token_here"
       }
@@ -190,7 +190,7 @@ Create an embedded URL for the revenue dashboard with dark theme
 ## Rate Limits & Best Practices
 
 - **API Rate Limit**: 60 requests per minute
-- **Concurrent Kernels**: Maximum 25 running simultaneously  
+- **Concurrent Kernels**: Maximum 25 running simultaneously
 - **Project Runs**: Maximum 20 project run requests per minute
 
 ### Best Practices
@@ -211,7 +211,7 @@ The server provides comprehensive error handling for common scenarios:
 ## Development
 
 ### Prerequisites
-- Node.js 18+ 
+- Node.js 18+
 - TypeScript 5+
 - Hex workspace with API access
 

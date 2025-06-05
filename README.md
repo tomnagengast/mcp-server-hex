@@ -8,18 +8,53 @@ A Model Context Protocol (MCP) server that provides seamless integration with [H
 - **List Projects**: Browse all accessible projects in your Hex workspace
 - **Get Project Details**: Retrieve comprehensive information about specific projects
 - **Create Presigned URLs**: Generate embeddable URLs for sharing Hex projects
+- **Advanced Search**: Find projects by name, description, tags, author, status, or date filters
+- **Project Summary**: Get comprehensive overviews of multiple projects with run history and metrics
 
 ### Project Execution
 - **Run Projects**: Execute Hex projects with custom input parameters
 - **Monitor Runs**: Check the status and progress of project executions
 - **Cancel Runs**: Stop long-running or stuck project executions
 - **Run History**: View execution history and past results
+- **Bulk Operations**: Run multiple projects in parallel or sequence for batch analysis
+- **Active Run Monitoring**: Real-time monitoring of all running and pending executions
+- **Project Scheduling**: Schedule projects to run at specific times or with recurring schedules
+
+### Data & Analytics
+- **Data Export**: Export project results in multiple formats (CSV, JSON, Parquet, Excel)
+- **Execution Analytics**: Performance metrics and trends analysis over time
+- **Workspace Analytics**: Comprehensive analytics across all projects and users
+- **Performance Monitoring**: Track runtime trends, success rates, and usage patterns
 
 ### Advanced Features
 - **Rate Limit Handling**: Automatic retry and error handling for API limits
 - **Comprehensive Logging**: Debug-friendly logging for troubleshooting
 - **Type Safety**: Full TypeScript support with detailed type definitions
 - **Error Recovery**: Robust error handling with user-friendly messages
+- **Batch Processing**: Efficient handling of multiple operations with configurable concurrency
+- **Smart Filtering**: Advanced search capabilities with multiple criteria combinations
+
+## Tools Overview
+
+This MCP server provides **14 comprehensive tools** designed specifically for data analysts and Hex power users:
+
+**Project Management (7 tools):**
+- `hex_list_projects` - Browse workspace projects with pagination
+- `hex_get_project` - Get detailed project information
+- `hex_search_projects` - Advanced search and filtering
+- `hex_create_presigned_url` - Generate embeddable URLs
+- `hex_export_project_data` - Export results in multiple formats
+- `hex_bulk_run_projects` - Batch project execution
+- `hex_get_project_summary` - Multi-project analysis reports
+
+**Project Execution (7 tools):**
+- `hex_run_project` - Execute projects with parameters
+- `hex_get_run_status` - Check execution status
+- `hex_cancel_run` - Stop running executions
+- `hex_get_project_runs` - View run history
+- `hex_get_execution_analytics` - Performance metrics and trends
+- `hex_monitor_active_runs` - Real-time run monitoring
+- `hex_schedule_project_run` - Schedule recurring executions
 
 ## Installation
 
@@ -360,9 +395,19 @@ MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Changelog
 
+### v1.1.0
+- **Major Enhancement**: Added 10 new analyst-focused tools
+- **Project Search**: Advanced filtering by name, author, tags, status, and dates
+- **Data Export**: Export project results in CSV, JSON, Parquet, and Excel formats
+- **Bulk Operations**: Parallel and sequential execution of multiple projects
+- **Analytics & Monitoring**: Execution analytics, performance metrics, and real-time monitoring
+- **Project Scheduling**: Schedule recurring project executions
+- **Enhanced Documentation**: Comprehensive usage examples and tool reference
+- **Type Safety**: Improved TypeScript support for all new tools
+
 ### v1.0.0
 - Initial release
 - Full Hex API integration
-- Project management and execution tools
+- Core project management and execution tools (4 tools)
 - Comprehensive error handling and logging
 - TypeScript support with detailed types

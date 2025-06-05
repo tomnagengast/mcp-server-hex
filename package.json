@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-hex",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Model Context Protocol server for Hex analytics platform",
   "main": "dist/index.js",
   "type": "module",

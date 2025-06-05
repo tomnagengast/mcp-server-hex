@@ -32,7 +32,7 @@ npx mcp-server-hex
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/mcp-server-hex.git
+git clone https://github.com/tomnagengast/mcp-server-hex.git
 cd mcp-server-hex
 npm install
 npm run build
@@ -217,7 +217,7 @@ The server provides comprehensive error handling for common scenarios:
 
 ### Building from Source
 ```bash
-git clone https://github.com/yourusername/mcp-server-hex.git
+git clone https://github.com/tomnagengast/mcp-server-hex.git
 cd mcp-server-hex
 npm install
 npm run build
@@ -253,7 +253,7 @@ MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/mcp-server-hex/issues)
+- **Issues**: [GitHub Issues](https://github.com/tomnagengast/mcp-server-hex/issues)
 - **Documentation**: [Hex API Documentation](https://learn.hex.tech/docs/api/api-overview)
 - **MCP Documentation**: [Model Context Protocol](https://github.com/modelcontextprotocol/typescript-sdk)
 
